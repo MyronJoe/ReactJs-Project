@@ -73,6 +73,15 @@
 .menu-icon {
   display: none;
 }
+.fa-spinner{
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  100%{
+    transform: rotate(360deg);
+  }
+}
 
 @media screen and (max-width: 960px) {
   .NavbarItems {

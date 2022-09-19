@@ -28,7 +28,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
-                        MYRON <i className='fa fa-database'></i>
+                        MYRON <i className='fa fa-spinner'></i>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
