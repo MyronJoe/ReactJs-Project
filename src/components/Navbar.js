@@ -14,12 +14,12 @@ function Navbar() {
     const showButton = () => {
         if (window.innerWidth <= 960) {
             setButton(false)
-        }else{
+        } else {
             setButton(true)
         }
     }
 
-    useEffect( () => {
+    useEffect(() => {
         showButton();
     }, []);
     window.addEventListener('resize', showButton);
@@ -35,7 +35,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>     
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
                         </li>
 
                         <li>
